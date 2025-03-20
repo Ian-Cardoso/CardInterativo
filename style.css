@@ -1,0 +1,65 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(61, 54, 54);
+}
+
+.profile-card{
+    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 24px, rgba(0, 0, 0, 0.4) 0px 6px 56px, rgba(0, 0, 0, 0.5) 0px 20px 80px;
+    width: 225px;
+  background-color: rgb(71, 64, 64);
+  border-radius: 20px; 
+  transition: transform 0.8s, background-color 0.3s;
+
+}
+
+.profile-card:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+    box-shadow: rgba(226, 225, 225, 0.6) 0px 2px 24px, rgba(192, 186, 186, 0.4) 0px 6px 56px, rgba(216, 205, 205, 0.5) 0px 20px 80px;
+}
+
+.profile-image{
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.saiba-mais-btn{
+    margin-bottom: 15px;
+    background-color: rgb(42, 49, 41);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.saiba-mais-btn:hover{
+   background-color: rgb(41, 36, 36);
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .profile-card:hover .info {
+    display: block;
+  }
+
+span{
+    font-weight: bolder;
+}
